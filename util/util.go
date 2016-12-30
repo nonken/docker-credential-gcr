@@ -105,3 +105,7 @@ func DockerClientVersion() (int, int, int, string, error) {
 
 	return major, minor, patch, patchSplit[1], nil
 }
+
+func printErrorln(fmtString string, v ...interface{}) {
+	fmt.Fprintf(os.Stderr, "ERROR: "+fmtString+"\n", v...)
+}

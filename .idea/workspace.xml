@@ -73,8 +73,8 @@
       <file leaf-file-name="util.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/util/util.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="100" column="23" lean-forward="false" selection-start-line="100" selection-start-column="23" selection-end-line="100" selection-end-column="23" />
+            <state relative-caret-position="427">
+              <caret line="111" column="0" lean-forward="true" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -113,8 +113,8 @@
       <file leaf-file-name="configure-docker.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cli/configure-docker.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="85" column="67" lean-forward="true" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="67" />
+            <state relative-caret-position="308">
+              <caret line="214" column="0" lean-forward="false" selection-start-line="214" selection-start-column="0" selection-end-line="217" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -129,8 +129,9 @@
       <find>config</find>
       <find>cli.</find>
       <find>Unable to determine Docker version</find>
-      <find>DockerClientVersion</find>
       <find>Docker version</find>
+      <find>DockerClientVersion</find>
+      <find>printErrorln</find>
     </findStrings>
     <replaceStrings>
       <replace>nonken/docker-credential-gcr</replace>
@@ -311,12 +312,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1483138777216</updated>
-      <workItem from="1483138778842" duration="1732000" />
+      <workItem from="1483138778842" duration="1803000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1732000" />
+    <option name="totallyTimeSpent" value="1803000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -519,8 +520,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cli/configure-docker.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="85" column="67" lean-forward="true" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="67" />
+        <state relative-caret-position="308">
+          <caret line="214" column="0" lean-forward="false" selection-start-line="214" selection-start-column="0" selection-end-line="217" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -551,8 +552,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/util/util.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="100" column="23" lean-forward="false" selection-start-line="100" selection-start-column="23" selection-end-line="100" selection-end-column="23" />
+        <state relative-caret-position="427">
+          <caret line="111" column="0" lean-forward="true" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
           <folding />
         </state>
       </provider>
