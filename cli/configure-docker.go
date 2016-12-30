@@ -28,7 +28,7 @@ import (
 	"github.com/nonken/docker-credential-gcr/store"
 	"github.com/nonken/docker-credential-gcr/util"
 	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/cli/config"
+	cliconfig "github.com/docker/docker/cli/config"
 	"github.com/docker/docker/cli/config/configfile"
 	"github.com/google/subcommands"
 )
@@ -71,7 +71,7 @@ func (c *dockerConfigCmd) Execute(context.Context, *flag.FlagSet, ...interface{}
 		return subcommands.ExitFailure
 	}
 
-	dockerConfig, err := cli.Load("")
+	dockerConfig, err := cliconfig.Load("")
 	if err != nil {
 		printErrorln("Unable to load docker config: %v", err)
 		return subcommands.ExitFailure

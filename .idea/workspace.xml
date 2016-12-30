@@ -114,7 +114,7 @@
         <entry file="file://$PROJECT_DIR$/cli/configure-docker.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="174">
-              <caret line="73" column="28" lean-forward="false" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="28" />
+              <caret line="73" column="34" lean-forward="false" selection-start-line="73" selection-start-column="34" selection-end-line="73" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -307,12 +307,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1483138777216</updated>
-      <workItem from="1483138778842" duration="659000" />
+      <workItem from="1483138778842" duration="783000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="659000" />
+    <option name="totallyTimeSpent" value="783000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -548,7 +548,7 @@
     <entry file="file://$PROJECT_DIR$/cli/configure-docker.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
-          <caret line="73" column="28" lean-forward="false" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="28" />
+          <caret line="73" column="34" lean-forward="false" selection-start-line="73" selection-start-column="34" selection-end-line="73" selection-end-column="34" />
           <folding />
         </state>
       </provider>
