@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2cc3824-a318-4822-91ca-a82b01fea8f0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/util.go" afterPath="$PROJECT_DIR$/util/util.go" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -74,8 +73,8 @@
       <file leaf-file-name="util.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/util/util.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="57" column="35" lean-forward="false" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+            <state relative-caret-position="92">
+              <caret line="54" column="67" lean-forward="false" selection-start-line="54" selection-start-column="67" selection-end-line="54" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -133,6 +132,7 @@
       <find>Docker version</find>
       <find>DockerClientVersion</find>
       <find>printErrorln</find>
+      <find>DockerClientVersionStrings</find>
     </findStrings>
     <replaceStrings>
       <replace>nonken/docker-credential-gcr</replace>
@@ -313,12 +313,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1483138777216</updated>
-      <workItem from="1483138778842" duration="2050000" />
+      <workItem from="1483138778842" duration="2207000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2050000" />
+    <option name="totallyTimeSpent" value="2207000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -553,8 +553,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/util/util.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="57" column="35" lean-forward="false" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+        <state relative-caret-position="92">
+          <caret line="54" column="67" lean-forward="false" selection-start-line="54" selection-start-column="67" selection-end-line="54" selection-end-column="67" />
           <folding />
         </state>
       </provider>
