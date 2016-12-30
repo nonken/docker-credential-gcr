@@ -21,6 +21,7 @@ import (
 	"errors"
 	"os"
 	"os/exec"
+	"fmt"
 	"os/user"
 	"path/filepath"
 	"runtime"
