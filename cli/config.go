@@ -23,7 +23,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/GoogleCloudPlatform/docker-credential-gcr/config"
+	"github.com/nonken/docker-credential-gcr/config"
 	"github.com/google/subcommands"
 )
 

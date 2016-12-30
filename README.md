@@ -1,4 +1,4 @@
-# docker-credential-gcr [![Build Status](https://travis-ci.org/GoogleCloudPlatform/docker-credential-gcr.svg?branch=master)](https://travis-ci.org/GoogleCloudPlatform/docker-credential-gcr)
+# docker-credential-gcr [![Build Status](https://travis-ci.org/nonken/docker-credential-gcr.svg?branch=master)](https://travis-ci.org/nonken/docker-credential-gcr)
 
 ## Introduction
 
@@ -44,13 +44,13 @@ The program in this repository is written with the Go programming language and b
 1. Download the source and put it in your `$GOPATH` with `go get`.
 
 	```shell
-    go get github.com/GoogleCloudPlatform/docker-credential-gcr
+    go get github.com/nonken/docker-credential-gcr
 	```
 
 2. Use `make` to build the program. The executable will be output to the `bin` directory inside the repository.
 
 	```shell
-    cd $GOPATH/src/github.com/GoogleCloudPlatform/docker-credential-gcr
+    cd $GOPATH/src/github.com/nonken/docker-credential-gcr
     make
 	```
 

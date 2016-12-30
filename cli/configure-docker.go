@@ -24,9 +24,9 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/GoogleCloudPlatform/docker-credential-gcr/config"
-	"github.com/GoogleCloudPlatform/docker-credential-gcr/store"
-	"github.com/GoogleCloudPlatform/docker-credential-gcr/util"
+	"github.com/nonken/docker-credential-gcr/config"
+	"github.com/nonken/docker-credential-gcr/store"
+	"github.com/nonken/docker-credential-gcr/util"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/cli/config"
 	"github.com/docker/docker/cli/config/configfile"

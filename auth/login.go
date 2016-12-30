@@ -28,7 +28,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/GoogleCloudPlatform/docker-credential-gcr/config"
+	"github.com/nonken/docker-credential-gcr/config"
 	"github.com/toqueteos/webbrowser"
 	"golang.org/x/oauth2"
 )

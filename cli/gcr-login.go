@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/GoogleCloudPlatform/docker-credential-gcr/auth"
-	"github.com/GoogleCloudPlatform/docker-credential-gcr/store"
+	"github.com/nonken/docker-credential-gcr/auth"
+	"github.com/nonken/docker-credential-gcr/store"
 	"github.com/google/subcommands"
 )
 

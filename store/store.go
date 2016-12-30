@@ -27,8 +27,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/GoogleCloudPlatform/docker-credential-gcr/config"
-	"github.com/GoogleCloudPlatform/docker-credential-gcr/util"
+	"github.com/nonken/docker-credential-gcr/config"
+	"github.com/nonken/docker-credential-gcr/util"
 	"github.com/docker/docker-credential-helpers/credentials"
 	"golang.org/x/net/context"
 	"golang.org/x/oauth2"

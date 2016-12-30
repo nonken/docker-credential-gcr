@@ -20,11 +20,11 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/GoogleCloudPlatform/docker-credential-gcr/mock/mock_config" // mocks must be generated before test execution
-	"github.com/GoogleCloudPlatform/docker-credential-gcr/mock/mock_store"
+	"github.com/nonken/docker-credential-gcr/mock/mock_config" // mocks must be generated before test execution
+	"github.com/nonken/docker-credential-gcr/mock/mock_store"
 
-	"github.com/GoogleCloudPlatform/docker-credential-gcr/config"
-	"github.com/GoogleCloudPlatform/docker-credential-gcr/store"
+	"github.com/nonken/docker-credential-gcr/config"
+	"github.com/nonken/docker-credential-gcr/store"
 	"github.com/docker/docker-credential-helpers/credentials"
 	"github.com/golang/mock/gomock"
 )
