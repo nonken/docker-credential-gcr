@@ -20,7 +20,6 @@ package util
 import (
 	"errors"
 	"os"
-	"os/exec"
 	"fmt"
 	"os/user"
 	"path/filepath"
