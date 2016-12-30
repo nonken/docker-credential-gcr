@@ -53,7 +53,7 @@ func unixHomeDir() string {
 // DockerClientVersionStrings attempts to discover the version of the Docker client,
 // returning the major, minor, and patch versions, or an error if unsuccessful.
 func DockerClientVersionStrings() (string, string, string, error) {
-	return 1, 12, 3, nil
+	return "1", "12", "3", nil
 }
 
 // DockerClientVersion attempts to discover the major and minor version
