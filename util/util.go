@@ -80,21 +80,25 @@ func DockerClientVersionStrings() (string, string, string, error) {
 // '1.what.0' => 0, 0, 0, "", nil
 func DockerClientVersion() (int, int, int, string, error) {
 	majorstr, minorstr, patchstr, err := DockerClientVersionStrings()
+	printErrorln("ERR 1: %v", err)
 	if err != nil {
 		return 0, 0, 0, "", err
 	}
 
 	major, err := strconv.Atoi(majorstr)
+	printErrorln("ERR 2: %v", err)
 	if err != nil {
 		return 0, 0, 0, "", err
 	}
 	minor, err := strconv.Atoi(minorstr)
+	printErrorln("ERR 3: %v", err)
 	if err != nil {
 		return 0, 0, 0, "", err
 	}
 
 	patchSplit := strings.Split(patchstr, "-")
 	patch, err := strconv.Atoi(patchSplit[0])
+	printErrorln("ERR 4: %v", err)
 	if err != nil {
 		return 0, 0, 0, "", err
 	}
