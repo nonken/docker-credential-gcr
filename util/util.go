@@ -55,6 +55,8 @@ func unixHomeDir() string {
 func DockerClientVersionStrings() (string, string, string, error) {
 	cmd := exec.Command("docker", "version", "--format", "'{{.Client.Version}}'")
 	out, err := cmd.Output()
+	printErrorln("ERR cmd: %v", cmd)
+	printErrorln("ERR out: %v", err)
 	if err != nil {
 		return "", "", "", err
 	}
