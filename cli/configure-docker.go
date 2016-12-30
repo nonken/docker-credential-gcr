@@ -39,7 +39,7 @@ type dockerConfigCmd struct {
 	overwrite bool
 }
 
-// see https://github.com/docker/docker/blob/master/cliconfig/credentials/native_store.go
+// see https://github.com/docker/docker/blob/master/cli/config/credentials/native_store.go
 const credHelperPrefix = "docker-credential-"
 
 // NewDockerConfigSubcommand returns a subcommands.Command which configures
@@ -71,7 +71,7 @@ func (c *dockerConfigCmd) Execute(context.Context, *flag.FlagSet, ...interface{}
 		return subcommands.ExitFailure
 	}
 
-	dockerConfig, err := cliconfig.Load("")
+	dockerConfig, err := cli.Load("")
 	if err != nil {
 		printErrorln("Unable to load docker config: %v", err)
 		return subcommands.ExitFailure
